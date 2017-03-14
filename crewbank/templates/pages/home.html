@@ -1,1 +1,74 @@
 {% extends "base.html" %}
+{% load staticfiles i18n %}
+
+{% block precontent %}
+
+			<!-- Banner -->
+				<div id="banner-wrapper">
+					<div id="banner" class="box container">
+						<div class="row">
+							<div class="7u 12u(medium)">
+								<h2>Get Sailing.</h2>
+								<p>Increase member engagement for your sailing club.</p>
+							</div>
+							<div class="5u 12u(medium)">
+								<ul>
+									<li><a href="#" class="button big icon fa-arrow-circle-right">Ok let's go</a></li>
+									<li><a href="#" class="button alt big icon fa-question-circle">More info</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+
+			<!-- Features -->
+				<div id="features-wrapper">
+					<div class="container">
+						<div class="row">
+							<div class="4u 12u(medium)">
+
+								<!-- Box -->
+									<section class="box feature">
+										<a href="#" class="image featured"><img src="{% static 'images/pic01.jpg' %}" alt="" /></a>
+										<div class="inner">
+											<header>
+												<h2>Ignite some Passion</h2>
+											</header>
+											<p>Getting people more opportunities to get out on the water more often is what drives interest in the sport.</p>
+										</div>
+									</section>
+
+							</div>
+							<div class="4u 12u(medium)">
+
+								<!-- Box -->
+									<section class="box feature">
+										<a href="#" class="image featured"><img src="{% static 'images/pic02.jpg' %}" alt="" /></a>
+										<div class="inner">
+											<header>
+												<h2>Community</h2>
+											</header>
+											<p>Foster a social community that is accessible to new members and nutures friendships through robust communication tools.</p>
+										</div>
+									</section>
+
+							</div>
+							<div class="4u 12u(medium)">
+
+								<!-- Box -->
+									<section class="box feature">
+										<a href="#" class="image featured"><img src="{% static 'images/pic03.jpg' %}" alt="" /></a>
+										<div class="inner">
+											<header>
+												<h2>More Boats On The Water</h2>
+											</header>
+											<p>By giving boat owners and skippers ways to co-ordinate with and find crew easily everyone wins.</p>
+										</div>
+									</section>
+
+							</div>
+						</div>
+					</div>
+				</div>
+
+{% endblock precontent %}
